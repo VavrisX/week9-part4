@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	
+	<script type="text/javascript" src="canvasjs-1.5.6/canvasjs.min.js"></script>
+	<script src="jquerymobile/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script src="jquerymobile/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+	<link href="jquerymobile/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css">    
+    <script src="phonegap.js" type="text/javascript"></script>
+	<script src="chart.js" type="text/javascript"></script>
+</head>
+
+<body>
+	
+    <div data-role="page" id="chartPage">
+	  
+      	<div data-role="header">
+	    	<h1>Chart Example</h1>
+      	</div>
+	  
+      	<div data-role="content">
+      
+      		<div id="chartContainer" style="height: 300px; width: 100%;">
+			</div>
+
+     	</div>
+	  
+      	<div data-role="footer">
+	    	 		<label for="flipswitch">Sensor:</label>
+      	            <select name="flipswitch" id="flipswitch" data-role="slider">
+        	   <option value="off">Off</option>
+        	   <option value="on">On</option>
+      	</select>
+	   </div>
+
+	</div>
+
+</body>
+</html>
